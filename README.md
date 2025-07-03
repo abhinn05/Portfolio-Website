@@ -28,9 +28,7 @@ You can open the `index.html` file directly in your browser to preview the portf
 ```
 portfolio/
 ├── index.html
-├── image.png           # Logo icon for header
-├── abhinn.jpg          # Personal image
-├── resume.pdf          # Resume file (for download)
+├── image.png                  
 └── README.md
 ```
 
