@@ -23,10 +23,6 @@ You can open the `index.html` file directly in your browser to preview the portf
 - Tailwind CSS  
 - Google Fonts (Poppins, Roboto)
 
-## 🖥️ Screenshot
-
-![Portfolio Screenshot](screenshot.png) <!-- Replace this with actual screenshot if desired -->
-
 ## 📂 Folder Structure
 
 ```
