@@ -39,7 +39,7 @@ portfolio/
    git clone https://github.com/abhinn05/Portfolio-Website.git
    ```
 2. Open `index.html` in your browser.
-3. Replace `resume.pdf`, `abhinn.jpg`, and `image.png` with your own assets if needed.
+3. Replace `image.png` with your own assets if needed.
 4. Deploy using GitHub Pages, Vercel, Netlify or any static hosting platform.
 
 ## 🧑‍💼 About Me
