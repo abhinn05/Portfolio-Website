@@ -15,42 +15,43 @@
   <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
 
     <div class="flex items-center">
-      <img src="image.png" alt="A" class="w-14 h-13 object-contain" />
+      <img src="image.png" alt="A" class="w-14 h-13 sm:w-14 sm:h-14 object-contain" />
       <span class="text-2xl font-bold text-gray-800 -ml-3">bhinn Goyal</span>
     </div>
 
 
     <!-- Navigation Links -->
-    <div class="space-x-4 text-lg font-semibold">
-      <a href="#about"
-         class="relative px-4 py-2 text-gray-700 transition-all duration-300 hover:text-white hover:bg-blue-500 hover:border hover:border-blue-500 rounded-lg hover:scale-105">
-        About
-      </a>
-      <a href="#skills"
-         class="relative px-4 py-2 text-gray-700 transition-all duration-300 hover:text-white hover:bg-green-500 hover:border hover:border-green-500 rounded-lg hover:scale-105">
-        Skills
-      </a>
-      <a href="#projects"
-         class="relative px-4 py-2 text-gray-700 transition-all duration-300 hover:text-white hover:bg-purple-500 hover:border hover:border-purple-500 rounded-lg hover:scale-105">
-        Projects
-      </a>
-      <a href="#resume"
-         class="relative px-4 py-2 text-gray-700 transition-all duration-300 hover:text-white hover:bg-pink-500 hover:border hover:border-pink-500 rounded-lg hover:scale-105">
-        Resume
-      </a>
-      <a href="#contact"
-         class="relative px-4 py-2 text-gray-700 transition-all duration-300 hover:text-white hover:bg-yellow-500 hover:border hover:border-yellow-500 rounded-lg hover:scale-105">
-        Contact
-      </a>
-    </div>
+    <div class="flex flex-wrap gap-2 text-base sm:text-lg md:text-xl font-semibold mt-2 sm:mt-0">
+  <a href="#about"
+     class="relative px-4 py-2 text-gray-700 transition-all duration-300 hover:text-white hover:bg-blue-500 hover:border hover:border-blue-500 rounded-lg hover:scale-105">
+    About
+  </a>
+  <a href="#skills"
+     class="relative px-4 py-2 text-gray-700 transition-all duration-300 hover:text-white hover:bg-green-500 hover:border hover:border-green-500 rounded-lg hover:scale-105">
+    Skills
+  </a>
+  <a href="#projects"
+     class="relative px-4 py-2 text-gray-700 transition-all duration-300 hover:text-white hover:bg-purple-500 hover:border hover:border-purple-500 rounded-lg hover:scale-105">
+    Projects
+  </a>
+  <a href="#resume"
+     class="relative px-4 py-2 text-gray-700 transition-all duration-300 hover:text-white hover:bg-pink-500 hover:border hover:border-pink-500 rounded-lg hover:scale-105">
+    Resume
+  </a>
+  <a href="#contact"
+     class="relative px-4 py-2 text-gray-700 transition-all duration-300 hover:text-white hover:bg-yellow-500 hover:border hover:border-yellow-500 rounded-lg hover:scale-105">
+    Contact
+  </a>
+</div>
+
   </div>
 </nav>
 
 
   <!-- Hero Section -->
-  <section class="pt-32 text-center bg-gradient-to-br from-blue-100 to-white ">
-    <h2 class="text-4xl font-bold mb-2">Hi, I'm Abhinn Goyal</h2>
-    <p class="text-lg text-gray-600">Engineering Student | Tech Enthusiast | Problem Solver</p>
+  <section class="pt-36 text-center bg-gradient-to-br from-blue-100 to-white ">
+    <h2 class="text-2xl sm:text-4xl font-bold mb-2">Hi, I'm Abhinn Goyal</h2>
+    <p class="text-base sm:text-lg text-gray-600">Engineering Student | Tech Enthusiast | Problem Solver</p>
     <div class="mt-4">
       <a href="#contact" class="inline-block px-6 py-2 mt-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Let's Connect</a>
     </div>
@@ -58,8 +59,8 @@
 
   <!-- About Me -->
 <section id="about" class="max-w-5xl mx-auto py-20 px-6">
-  <h3 class="text-4xl font-bold mb-6 text-gray-800">About Me</h3>
-  <p class="text-lg text-gray-700 leading-relaxed tracking-wide font-medium">
+  <h3 class="text-2xl sm:text-4xl font-bold mb-6 text-gray-800">About Me</h3>
+  <p class="text-base sm:text-lg text-gray-700 leading-relaxed tracking-wide font-medium">
     I’m an undergraduate engineering student at IIT Mandi, driven by curiosity and a deep passion for technology. Whether it's developing innovative software, solving real-world challenges, or learning new tools, I thrive on building impactful solutions. I enjoy working in collaborative environments and constantly strive to grow both as a developer and as a problem solver. My time at IIT Mandi has further strengthened my foundations in computer science and exposed me to cutting-edge research and vibrant tech communities.
   </p>
 </section>
@@ -69,7 +70,7 @@
 <section id="skills" class="bg-gray-100 py-16 px-4">
   <div class="max-w-5xl mx-auto">
     <h3 class="text-3xl font-semibold mb-6 text-center">Skills</h3>
-    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+    <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
       <div class="flex items-center justify-center h-24 p-4 bg-white rounded shadow text-center font-bold text-gray-800">
         C/C++
       </div>
@@ -102,8 +103,7 @@
   <!-- Projects -->
 <section id="projects" class="max-w-5xl mx-auto py-16 px-4">
   <h3 class="text-3xl font-semibold mb-10 text-center">Projects</h3>
-  <div class="grid md:grid-cols-2 gap-8">
-
+  <div class="grid sm:grid-cols-2 gap-6">
     <!-- Project Card -->
     <a href="https://github.com/abhinn05/Portfolio-Website" target="_blank"
        class="group block p-6 bg-white rounded-lg shadow-md transform transition duration-300 hover:scale-105 hover:shadow-xl hover:bg-blue-50">
@@ -168,8 +168,8 @@
 
   <!-- Resume -->
   <section id="resume" class="bg-gray-100 py-16 px-4 text-center">
-    <h3 class="text-3xl font-semibold mb-6">Resume</h3>
-    <a href="resume.pdf" download
+    <h3 class="text-2xl sm:text-3xl font-semibold mb-6">Resume</h3>
+    <a href="https://drive.google.com/file/d/1JR3PR0IjShIBoQh_RhCffZxvKuYKoI3L/view?usp=drive_link" download
       class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700 transition-all duration-300 ease-in-out"
       style="font-family: 'Poppins', sans-serif;">
       ⬇️ Download My Resume
@@ -179,9 +179,9 @@
 
   <!-- Contact -->
   <section id="contact" class="max-w-5xl mx-auto py-16 px-4">
-    <h3 class="text-3xl font-semibold mb-6">Contact</h3>
-    <p>📧 Email: abhinngoyal2005@gmail.com</p>
-    <p>📍 Location: Punjab, India</p>
+    <h3 class="text-2xl sm:text-3xl font-semibold mb-6">Contact</h3>
+    <p class="text-base sm:text-lg">📧 Email: abhinngoyal2005@gmail.com</p>
+    <p class="text-base sm:text-lg">📍 Location: Punjab, India</p>
     <div class="mt-4 space-x-4">
       <a href="https://github.com/abhinn05/" target="_blank" class="text-blue-500 underline">GitHub</a>
       <a href="https://www.linkedin.com/in/abhinn-goyal/" target="_blank" class="text-blue-500 underline">LinkedIn</a>
