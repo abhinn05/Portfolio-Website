@@ -10,6 +10,7 @@ This is a responsive personal portfolio website built using **HTML** and **Tailw
 - 🧠 Skills displayed using responsive grid layout
 - 👨‍🎓 About Me section including college details (IIT Mandi)
 - 📄 Resume download button
+- 📜 Certifications section highlighting technical proficiencies and completed courses
 - 📸 Personal image placed elegantly on the page
 - 🌈 Clean, minimal, and responsive Tailwind CSS styling
 
